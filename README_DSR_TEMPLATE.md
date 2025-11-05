@@ -53,8 +53,15 @@ Lista detallada de verificación que incluye:
 - Dimensionamiento de elementos estructurales
 - Detalles de refuerzo
 
-### 5. Comentarios y Observaciones
-Sección amplia para notas detalladas del revisor
+### 5. Comentarios y Observaciones (Tabla Estructurada)
+Tabla completa con las siguientes columnas:
+- **#**: Número de comentario (1-10 filas pre-numeradas)
+- **Comment**: Descripción detallada del comentario del revisor
+- **Priority**: Prioridad del comentario (H=High, M=Medium, L=Low)
+- **Status**: Estado del comentario (O=Open, C=Closed, P=Pending)
+- **Contractor/Designer Response**: Espacio para que la otra parte responda a cada comentario
+
+Esta tabla permite un seguimiento claro de cada observación y su respuesta, facilitando la comunicación bidireccional entre el revisor y el contratista/diseñador.
 
 ### 6. Información del Revisor
 - Nombre del revisor
@@ -76,11 +83,29 @@ Sección amplia para notas detalladas del revisor
    - ✗ = No cumple
    - N/A = No aplica
 
-5. **Agregar comentarios**: Escribir observaciones detalladas en la sección de comentarios
+5. **Agregar comentarios en la tabla estructurada**:
+   - Escribir cada comentario en la columna "Comment"
+   - Asignar prioridad en la columna "Priority" (H, M, o L)
+   - Marcar el estado inicial en la columna "Status" (normalmente O=Open)
+   - La columna "Contractor/Designer Response" quedará vacía para que la otra parte responda
 
-6. **Firmar y fechar**: Completar la información del revisor
+6. **Enviar al contratista/diseñador**: El contratista/diseñador completa la columna "Response" y actualiza el "Status"
 
-7. **Guardar y enviar**: Guardar el documento con un nombre descriptivo (ej: `DSR-001_ProjectName_Rev0.xlsx`)
+7. **Firmar y fechar**: Completar la información del revisor
+
+8. **Guardar y enviar**: Guardar el documento con un nombre descriptivo (ej: `DSR-001_ProjectName_Rev0.xlsx`)
+
+### Códigos para Priority y Status
+
+**Priority (Prioridad):**
+- **H** = High (Alta) - Requiere atención inmediata
+- **M** = Medium (Media) - Importante pero no urgente
+- **L** = Low (Baja) - Menor o sugerencia
+
+**Status (Estado):**
+- **O** = Open (Abierto) - Comentario pendiente de respuesta/resolución
+- **C** = Closed (Cerrado) - Comentario resuelto y verificado
+- **P** = Pending (Pendiente) - Respuesta recibida pero pendiente de verificación
 
 ## Reemplazar el Logo Placeholder
 
